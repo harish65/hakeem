@@ -1,0 +1,5 @@
+{
+    "name": "msms/broadcast",
+    "description": "package for m360 broadcast api",
+    "require": {}
+}

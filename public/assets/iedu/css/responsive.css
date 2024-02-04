@@ -1,0 +1,258 @@
+/*
+Project Name: IEDU
+CSS Author: Navneet
+Author Designation: Web Designer
+Framework Used: Bootstrap
+Organization: Code Brew Labs
+*/
+@media (max-width: 1300px){
+    .innerpages-header .navbar-light .navbar-nav .nav-link {
+        font-size: 12px;}
+}
+
+
+
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    
+    }
+
+
+    @media (max-width: 992px){
+    .navbar-light .navbar-toggler.btn-toggler {
+        border-color: rgb(247 141 44);
+        background: #fd6b0d;
+    }
+    .bokking-id {
+        display: block;}
+
+.client-desc{padding:15px 0px;}
+.client-btn { display: flex; justify-content: flex-start;}
+.past-bokking.study-material { min-width: auto;}
+section.study-material ul.nav.nav-tabs li a.active::before{display: none;}
+}
+
+
+
+@media (max-width:768px) {
+  .bannar-section h2 {
+    font-size: 36px;
+    padding: 0px!important;
+}
+.bannar-section {
+    padding: 25vh 0;
+    height: auto;
+}
+.view-courses-btn .btn {
+    padding: 14px 40px;
+}
+.section-heading {
+    font-size: 28px;
+    line-height: 42px;
+}
+.m-5.plan-card {
+    margin: 0 0 40px 0px!important;
+}
+.plan-card .view-courses-btn .btn {
+    padding: 12px 30px;
+}
+.students-testimonials .owl-nav {
+    top: -103px;
+}
+.download-our-app img {
+    margin-bottom: 20px;
+}
+.testimonial-slide p {
+    font-size: 18px;
+    line-height: 30px;
+}
+.download-our-app h4 {
+    font-size: 32px;
+}
+.how-it-works.bg-line-img .mt-5{
+    margin-top: 0px!important;
+}
+.mt--3 {
+    margin-top: 0px;
+}
+.bg-line-img {
+    background-image: none;
+}
+.navbar-light .navbar-toggler.btn-toggler {
+        border-color: rgb(247 141 44);
+        background: #fd6b0d;
+}
+
+header {
+    background: #000;
+}
+.navbar-light .navbar-toggler-icon {
+    /* filter: brightness(0) invert(1); */
+}
+.form-side {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100vh;
+}
+.mob-pad{padding:auto !important}
+.login-section .container-fluid {
+    /* padding: 0!important; */
+    padding: 15px !important;
+}
+.login-section {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.logo-side {
+    min-height: 550px;
+    display: none;
+}
+.login-section .carousel-item {
+    height: 550px;
+}
+/* .logo-side .logo {
+    position: absolute;
+    top: -400px;
+    left: 50px;
+}
+.vertical-center {
+    position: relative;
+    top: 0;
+    left: 0%;
+    transform: none;
+    -webkit-transform: none;
+} */
+.form-side .bottom-block {
+    position: relative; 
+    bottom: 0;
+    left: 0px;
+    letter-spacing: 0; 
+    width: 100%;
+}
+.bottom-block .col-md-5.text-right{
+    text-align: left!important;
+}
+.form-side .bottom-block small {
+    font-size: 12px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.cutsom-checkbox-row input[type="checkbox"] + label {
+    padding-left: 10px;
+}
+.form-side .cutsom-checkbox-row label {
+    color: #1A1A1A;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: 18px;
+    letter-spacing: -.5px;
+}
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .btn-hide-mob{display:none;}
+    .btn-show-mob{display: block;}
+    .user-wrapper.pass-btn {  display: block; margin-top: 35px;
+    }
+    .button-group-pills.btn-simple.text-center{column-count: 2;}
+    .button-group-pills.btn-simple.text-center .btn{width: 100%;}
+.image-wrap.d-flex{display: block !important;}
+.mob-l{text-align: left !important;}
+section.study-material ul.nav.nav-tabs li a { padding: 5px 10px;}
+section.study-material ul.nav.nav-tabs { justify-content: flex-start;}
+
+    .profile-left-main .default-btn.radius-btn span {
+        background: #f78d2c;
+        color: #fff;
+        padding: 10px 9px;
+        border-radius: 5px;
+        border: 1px solid #f78d2c;
+        font-size: 13px;
+        display: block;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+
+
+
+
+    .dropdown-menu.dropdown-menu-right {
+        position: static;
+    }
+    .bokking-date {
+        display: block;
+        justify-content: space-between;
+    }
+    .shrink .pagination{margin-top: 15px !important;}
+    .shrink .pagination .page-link { padding: 0.5rem 0.5rem;}
+    .doctor_box {
+        padding: 10px;}
+    section.about-inner .row {padding-top:0px;}
+    section.about-inner .row .col-md-5 img{margin-bottom:20px;}
+    .about-img img{width: 100%;}
+    .became-an-instructor h4 {font-size: 25px; padding-top: 20px;}
+    .students-testimonials{margin-top: 30px;}
+    .mob-list{align-items: baseline !important;}
+    section.study-material ul.nav.nav-tabs li a.active::before{display: none;}
+    .form-group.back-steap { padding-bottom: 20px;}
+    .mon-top-space{padding-top:40px;}
+    .vertical-center{position:static;}
+    section.study-material.booking-request .past-bokking ul.nav.nav-tabs li a.active::before{display: none;}
+    .past-bokking.study-material{min-width: auto;}
+    .text-mob-right img{float: none !important; margin: 0 auto; display: block; margin-top: 15px;}
+    .copyright-and-links{text-align: center;}
+    .form-group.back-steap a {margin-right: 0px;}
+    .how-it-inner {
+        margin-bottom: 14px;
+    }
+    .bg-line-img {
+        padding: 40px 0 50px;
+    }
+    section.how-it-works.bg-line-img h3 {
+        margin-bottom: 20px !important;
+    }
+    section.download-our-app img {
+        /* width: 100%; */
+    }
+    section.study-material.booking-request .menu-b ul.nav.nav-tabs {
+      margin-bottom:30px;}
+
+      .btn-menu {display: block !important;width: 100%;margin-bottom:15px;}
+      section.study-material.booking-request .menu-b ul.nav.nav-tabs {
+        box-shadow: 0px 5px 10px 1px #eaeaea;
+        border: 0;
+        flex-direction: row; 
+        padding-bottom: 0;
+        /* justify-content: revert; */
+         display: none; 
+        height: auto;
+        min-height:auto !important; 
+        width: 100%;
+    }
+  .selected{display:inline-block !important;}
+  section.study-material.booking-request ul.nav.nav-tabs.selected h3 {display: none !important;}
+  section.study-material.booking-request .tab-content {margin-top: 5px;}
+  .revenue-inner {margin-bottom: 10px;}
+  .class-card { margin-bottom: 22px;}
+  .image-wrap{display: block !important;}
+}
+
+
+
+@media (max-width: 575px) {
+.btn-simple .btn { width: 100%;justify-content: center;}
+.btn-simple .btn input{margin-right:10px;}
+}

@@ -1,0 +1,307 @@
+/* media query */
+
+@media only screen and (max-width: 1199px) {
+    .footer {
+        bottom: -66px;
+    }
+    .input-outer .dropdown {
+        display: inline;
+        padding-right: 60px;
+    }
+    .flag {
+        width: 100% !important;
+        border-right: 0px solid #ccc;
+        display: inline-table;
+    }
+    .input-outer input {
+        padding-left: 0px;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 992px){
+    .profile-detail{
+        padding-left: 31px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-nav li:first-child {
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    .footer {
+        background-color: #FFFFFF;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.22);
+        padding: 20px 0px;
+        margin-top: 20px;
+        width: 100%;
+        z-index: -1;
+        float: left;
+    }
+    .servicesDiv {
+        margin-bottom: 30px;
+    }
+    .services {
+        padding: 60px 0px 30px;
+    }
+    footer p {
+        padding-bottom: 30px;
+    }
+    .footer_links {
+        margin-bottom: 30px;
+    }
+    footer .container {
+        padding-bottom: 20px;
+    }
+    .service-provider h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .footer {
+        position: static;
+    }
+    .input-outer .dropdown {
+        display: inline;
+        padding-right: 60px;
+    }
+    .flag {
+        width: 100% !important;
+        border-right: 0px solid #ccc;
+        display: inline-table;
+    }
+    .input-outer input {
+        padding-left: 0px;
+        overflow: hidden;
+    }
+    .bannerSection h2 {
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 45px;
+        margin: 0;
+        padding-bottom: 5px;
+    }
+    .bannerSection p {
+        margin-bottom: 7px;
+    }
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: -34px;
+        left: 20px;
+        z-index: 15;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .payment-option .container {
+        max-width: 831px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    #booking .modal-dialog {
+        max-width: 376px;
+    }
+    .schedule-chat-wrapper .container {
+        max-width: 785px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .carousel-item img {
+        height: 425px;
+        object-fit: cover;
+    }
+    .carousel-inner .carousel-item:nth-child(5).active::before {
+        background-image: none;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .send-link button {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .iti.iti--allow-dropdown input {
+        width: 100%;
+        padding-right: 0px;
+    }
+    .send-link {
+        display: block;
+    }
+    .iti {
+        display: block;
+    }
+    .carousel-indicators {
+        position: absolute;
+        right: -50px;
+        bottom: -34px;
+        left: 20px;
+        z-index: 15;
+    }
+    @media only screen and (max-width: 480px) {
+        .outerDiv {
+            display: block;
+            padding-top: 0px;
+        }
+        .searchDiv {
+            border-right: 0px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+            padding-bottom: 10px;
+            padding-top: 10px;
+            margin-right: 0px;
+            margin-bottom: 10px;
+        }
+    }
+    .services {
+        padding: 60px 0px;
+    }
+    .services h2 {
+        color: #232323;
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 38px;
+    }
+    .services p {
+        opacity: 0.44;
+        color: #000000;
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 24px;
+        margin-bottom: 50px;
+    }
+    .servicesDiv {
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        padding: 40px 10px;
+        text-align: center;
+    }
+    .servicesDiv img {
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .servicesDiv h4 {
+        color: #232323;
+        font-size: 24px;
+        letter-spacing: 0;
+        line-height: 30px;
+        margin: 0;
+        display: inline-block;
+        position: relative;
+    }
+    .servicesDiv h4::before {
+        content: '';
+        position: absolute;
+        height: 8px;
+        width: 100%;
+        bottom: 3px;
+    }
+    .service1 {
+        box-shadow: inset 0 3px 0 0 #39C6C0, 0 1px 6px 0 rgba(0, 0, 0, 0.08);
+    }
+    .service1 h4::before {
+        background-color: rgba(57, 198, 192, 0.2);
+    }
+    .service2 {
+        box-shadow: inset 0 3px 0 0 #F6B568, 0 1px 6px 0 rgba(0, 0, 0, 0.08);
+    }
+    .service2 h4::before {
+        background-color: rgba(246, 181, 104, 0.2);
+    }
+    .service3 {
+        box-shadow: inset 0 3px 0 0 #6394F0, 0 1px 6px 0 rgba(0, 0, 0, 0.08);
+    }
+    .service3 h4::before {
+        background-color: rgba(99, 148, 240, 0.2);
+    }
+    .service4 {
+        box-shadow: inset 0 3px 0 0 #F47266, 0 1px 6px 0 rgba(0, 0, 0, 0.08);
+    }
+    .service4 h4::before {
+        background-color: rgba(244, 114, 102, 0.2);
+    }
+    .downloadSection {
+        background-color: #F5F6F9;
+        padding: 60px 0px 30px;
+    }
+    .downloadSection h2 {
+        color: #282525;
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 38px;
+        margin-bottom: 30px;
+    }
+    .downloadSection h4 {
+        color: #282525;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 26px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+    .mobileImage {
+        width: 100%;
+        max-height: 545px;
+        object-fit: contain;
+    }
+    .featuresList li {
+        padding-left: 25px;
+        padding-bottom: 20px;
+        position: relative;
+        color: #282525;
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 22px;
+    }
+    .featuresList li::before {
+        content: '';
+        position: absolute;
+        background-image: url(../images/dr/ic_chck.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 16px;
+        width: 16px;
+        left: 0;
+        top: 4px;
+    }
+    .iti__selected-flag:focus {
+        outline: none;
+        border: 0px;
+    }
+    .send-link {
+        display: flex;
+        align-items: center;
+    }
+    .send-link input {
+        height: 48px;
+        border-radius: 6px;
+        background-color: #FFFFFF;
+        margin-right: 25px !important;
+        border: none;
+    }
+    .send-link button {
+        height: 48px;
+        width: 144px;
+        border-radius: 6px;
+        background-color: #31398F;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 22px;
+        border: none;
+    }
+    .mobile-links {
+        margin-top: 30px;
+    }
+    .mobile-links a {
+        margin-right: 20px;
+    }
+}
